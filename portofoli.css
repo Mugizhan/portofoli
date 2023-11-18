@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inspiration&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inspiration&family=Kaushan+Script&family=Poppins:wght@500&display=swap');
+body{
+    background-image:url(../portofoli/images/background.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.portfolio{
+    font-weight:20px solid black;
+    position:absolute;
+    bottom:86%;
+    left:7%;
+    font-size:40px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;    
+}
+.portfolio span{
+    color:rgb(132, 0, 255);
+    
+}
+.logo{
+    width:4%;
+    height:8%;
+    position:absolute;
+    left:4%;
+    top:10px;
+    animation: rotation 2s infinite linear;
+}
+.logo1{
+    width:20%;
+    height:80%;
+}
+
+@keyframes rotation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.home{
+    position:absolute;
+    bottom:90%;
+    right:7%;
+    font-size:20px;
+    word-spacing:40px;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+
+}
+.background{
+    width:50%;
+    height:80%;
+    position:absolute;
+    left:50%;
+    top:20%;
+}
+.png{
+    width:6%;
+    height:6%;
+    position:absolute;
+    bottom:55%;
+    left:93%;
+    
+}
+.png a li img:hover{
+    width:105%;
+    height:105%;
+    
+}
+
+.png a li{
+    list-style-type: none;
+}
+.png a li img{width:100%;
+    height:100%;
+
+
+}
+.home a{
+    text-decoration: none;
+    color:black;   
+    letter-spacing:2px;
+    
+    
+}
+.home a:hover{
+    color:rgb(132, 0, 255); 
+}
+img{
+    width:65%;
+    height:90%;
+    position:relative;
+    top:8%;
+    left:-5%;
+}
+.bak{
+    width:60%;
+    height:85%;
+    transform:rotate(360deg);
+    position:relative;
+    top:-80%;
+    left:40%;
+    opacity:80px;
+}
+.head{
+    width:40%;
+    position:absolute;
+    left:50%;
+    bottom:25%; 
+}
+.head h1{
+    
+    font-size: 60px;
+    color:rgb(132, 0, 255);
+    font-family: 'Architects Daughter', cursive;
+   font-family: 'Inspiration', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+}
+.head p,.skill p{
+    word-spacing: 5px;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.head a{
+    word-spacing: 5px;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+background-color: rgb(132, 0, 255);
+color:white;
+padding-left:7%;
+padding-right:7%;
+padding-top:1.5%;
+padding-bottom:1.5%;
+border-radius:8px;
+
+}
+.head a:hover{
+    background-color:white; 
+color:rgb(132, 0, 255);
+border:2px solid rgb(132, 0, 255);
+}
+
+
+
+
+.aboutimg{
+    width:50%;
+    height:80%;
+    position:relative;
+    top:20%;
+    left:1%;
+}
+.aboutme{
+    position:absolute;
+    bottom:105%;
+
+}
+
+
+
+.skillhead{
+    width:40%;
+    position:absolute;
+    left:46%;
+    bottom:65%; 
+}
+.skillhead h1{
+    
+    font-size: 55px;
+    color:rgb(132, 0, 255);
+    font-family: 'Architects Daughter', cursive;
+   font-family: 'Inspiration', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+}
+.service_content{
+    width:80%;
+    height:60%;
+    position:absolute;
+    left:6%;
+    top:38%;
+}
+.service_content h3{
+    color:rgb(253, 253, 253);
+    position:absolute;
+    bottom:70%;
+    left:40%;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Inspiration', cursive;
+ font-family: 'Architects Daughter', cursive;
+ font-family: 'Inspiration', cursive;
+ font-family: 'Kaushan Script', cursive;
+     letter-spacing: 3px;
+     font-size:25px;
+    
+
+}
+.cnt{
+    width:30%;
+    height:80%;
+    background-color: rgba(38, 39, 39,0.8);
+    border-radius: 20px;
+    position: relative;
+}
+.cnt1{
+    width:30%;
+    height:80%;
+    background-color: rgba(38, 39, 39,0.8);
+    border-radius: 20px;
+    position: relative;
+    left:38%;
+    bottom:80.5%;
+}
+.cnt3{
+    width:30%;
+    height:80%;
+    background-color: rgba(38, 39, 39,0.8);
+    border-radius: 20px;
+    position: relative;
+    left:75%;
+    bottom:161%;
+}
+.service_img{
+    width:25%;
+    height:23%;
+    position: relative;
+    left:3%;
+}
+.technical_skill{
+    padding:10%;
+}
+.technical_skill .im{
+    width:90%;
+    height:15%;
+    padding:2%;
+    position:relative;
+    left:5%;
+    bottom:20%;
+
+}
+.project_content{
+    position:relative;
+    left:-3%;
+    top:40%;
+   width:100%;
+    height:35%;
+}
+.cont{
+    width:25%;
+    height:100%;
+    position:absolute;
+    left:10%
+}
+
+.cont .im{
+    width:100%;
+    height:100%;
+   position:absolute;
+    top:-1.5%;
+    left:.1%;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:1px 1px 10px rgb(0, 0, 0);
+}
+.cont .layer{
+    background:linear-gradient(rgba(0, 0, 0, 0.1),rgb(162, 0, 255));
+    overflow: hidden;
+    width:100%;
+    height:98%;
+    border-radius:15px;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    justify-content:center;
+}
+
+.cont1{
+    width:25%;
+    height:100%;
+    position:absolute;
+    left:40%
+}
+
+.cont1 .im{
+    width:100%;
+    height:100%;
+   position:absolute;
+    top:-1.5%;
+    left:.1%;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:1px 1px 10px rgb(0, 0, 0);
+}
+.cont1 .layer{
+    background:linear-gradient(rgba(0, 0, 0, 0.11),rgb(162, 0, 255));
+    overflow: hidden;
+    width:100%;
+    height:98%;
+    border-radius:15px;
+    justify-content: center;
+    align-items:center;
+    justify-content:center;
+}
+.im:hover{
+    opacity:22%;
+    cursor: pointer;
+}
+.layer{
+    color:white;
+    align-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.layer h1{
+    position:relative;
+    left:28%;
+    color:rgb(255, 255, 255);
+}
+.layer p{
+    font-size: 18px;
+    width:90%;
+    position:relative;
+    left:7%;
+    bottom:10px;
+
+}
+.cont2{
+    width:25%;
+    height:100%;
+    position:absolute;
+    left:70%
+}
+
+.cont2 .im{
+    width:100%;
+    height:100%;
+   position:absolute;
+    top:-1.5%;
+    left:.1%;
+    border-radius:15px;
+    overflow:hidden;
+    background:linear-gradient(rgba(0, 0, 0, 0.1),rgb(162, 0, 255));
+    box-shadow:1px 1px 10px rgb(0, 0, 0);
+}
+.max{
+    width:8%;
+    height:8%;
+    position:relative; 
+    left:50%;
+}
+.im{
+    border:1px solid rgba(0, 0, 0, 0.452);
+}
+.cont2 .layer{
+    overflow: hidden;
+    width:100%;
+    height:98%;
+    border-radius:15px;
+}
+.cont2 .layer h1{
+   
+    position:absolute;
+    left:20%;
+    top:10%;
+    color:black;width:60%;
+}
+.main{
+    height:65%;
+    width:90%;
+    position:relative;
+    top:35%;
+     left:3%;
+}
+.contact_content{
+    height:100%;
+    width:60%;
+    align-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size:22px;
+}
+.contact_content p{
+    width:95%;
+    position:relative;
+    left:5%;
+}
+.contact_logo{
+    width:70%;
+    height:45%;
+    position:relative;
+    bottom:3%;
+    left:5%;
+    font-size:100px;
+    font-family: 'Architects Daughter', cursive;
+   font-family: 'Inspiration', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kaushan Script', cursive;
+}
+.contact_logo table,tr,td{
+    height:20%;
+    width:60%;
+    font-size:18px;
+    padding-bottom:6%;
+}
+.contact_logo .cnt_im{
+    position:relative;
+    left:55%;
+}
+.contact_logo span{
+    color:rgb(162, 0, 255);
+    font-size:19px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+.form{
+    width:35%;
+    height:95%;
+    position:absolute;
+    bottom:0%;
+    left:66%;
+}
+.form form{
+    width:100%;
+    height:90%;
+}
+.form form input{
+    background-color:rgba(65, 65, 65, 0.342);
+    padding-right:40%;
+    padding-top: 3%;
+    border-radius:10px;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+.form form button{
+    position:relative;
+    top:3%;
+    left:15%;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:30%;
+    padding-right:30%;
+    border-radius:10px;
+    border:2px solid blueviolet;
+    font-family: arial;
+    font-size:15px;
+    font-weight: bold;
+    color:blueviolet;
+}
+.form form textarea{
+    background-color:rgba(65, 65, 65, 0.342);
+    font-size:17px;
+    border-radius:15px;
+    color:rgb(0, 0, 0);
+
+
+}
+.form form textarea:hover{
+    border:2px solid blueviolet;
+}
+.form button:hover{
+    background-color: blueviolet;
+    color:white
+}
+.form input:hover{
+    border:2px solid blueviolet;
+}
+
+
+
+*{
+    border:0px solid black;
+}
